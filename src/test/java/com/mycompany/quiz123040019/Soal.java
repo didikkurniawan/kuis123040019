@@ -4,6 +4,8 @@
  */
 package com.mycompany.quiz123040019;
 
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
+
 /**
  *
  * @author SB 604-11
@@ -27,5 +29,9 @@ public class Soal {
 
     public int pegurangan(int nilai1, int nilai2) {
         return nilai1 - nilai2;
+    }
+    
+    public static void main(String[]args){
+        System.out.println("");
     }
 }
